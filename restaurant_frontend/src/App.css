@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  left: 0;
+}
+
+/* Header */
+/* #region */
+.header{
+  margin-top: 1%;
+  width: 100%;
+  height: 25rem ;
+}
+
+.header_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.header_items{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: -28rem;
+  border-top: 2px solid orchid;
+  border-bottom: 2px solid orchid;
+}
+
+.header_items ul{
+  display: grid;
+  grid-template-columns: 100% 100% 100%;
+  list-style-type: none;
+}
+
+.header_items ul li a{
+  text-decoration: none;
+  list-style-type: none;
+}
+/* #endregion */
+
+
+/* Menu  */
+/* #region */
+
+.menuwrapper{
+  background-color: rgb(202, 214, 202);
+}
+
+.menucontainer {
+  width: 50%;
+  margin: auto;
+}
+.menucontainer table {
+  width: 100%;
+}
+.menucontainer table tr {
+  width: 100%;
+  height: 40px;
+}
+.menucontainer table tr:nth-child(even) {
+  background: #e2e2e2;
+}
+.menucontainer table tr:nth-child(odd) {
+  background: #eee;
+}
+.menucontainer table tr:first-child {
+  text-decoration: bold;
+  font-weight: 700;
+  background: #222;
+  color: #eee;
+}
+.menucontainer table td {
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.menucontainer table button {
+  border: none;
+  color: #eee;
+  margin-left: 5px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.menucontainer table button i {
+  font-size: 1rem;
+}
+.menucontainer table button:first-child {
+  background: #F13911;
+}
+.menucontainer table button:last-child {
+  background: #DF0D0D;
+}
+@media screen and (max-width: 768px){
+  .menucontainer {
+    width: 100%;
+    margin: auto;
+  }
+}
+/* #endregion */
+
+/* Order */
+/* #region */
+
+.orderDisplay{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: lightblue;
+}
+
+/* #endregion */
+
+/* SiteBody */
+/* #region */
+
+.siteBody{
+  margin-top: 2rem;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.siteBody h3{
+  text-align: center;
+  justify-content: center;
+}
+
+.siteImg{
+  height: 20%;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+}
+
+.siteBody img{
+  height: 20%;
+  width: 80%;
+  margin-left: 30%;
+}
+
+/* #endregion */
+
+.orderList tr:first-child, .orderTotal {
+  font-weight: bold;
+}
+.orderTotal {
+  padding-top: 20px;
+}
+.orderList td{
+  padding-right: 100px;
+
+}
